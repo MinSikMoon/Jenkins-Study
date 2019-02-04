@@ -1,20 +1,12 @@
 # Jenkins-Study
 
-Collection of Studying Jenkins
+- Collection of Studying Jenkins
+- 사내 CI/CD 구축을 위해 개인 스터디를 시작함.
 
-#### 1. 용어, 철학
+# Contents
 
-1. #### CI (Continuous Integration)
-
-- 등장요소 3개 : 개발자/ VCS/ 감시툴
-- 개발자가 소스관리하는 곳에 commit을 한다. 보통 Version Control을 하는 시스템은 감시당하는데, 우리는 보통 jenkins를 쓴다. jenkins가 VCS를 감시하다가 변화가 감지되면 '자동'으로 빌드, 테스트 등 각 상황에 맞는 자동화된 명령들을 수행하게 된다.
-- 뭔가 잘못 되었다면 개발자는 즉각적으로 이상을 보고 받을 수 있다.
-
-2. #### 우리는 왜 CI를 해야하나?
-
-- '빨리' 잘못을 찾아내기 위해
-- 자동화된 테스트를 통해서
-- 여기서 '잘못'이란 BUG나 에러를 말한다.
-- 즉 이런 것들을 빨리 발견할 수록 좋은 프로그램을 만들 확률이 높아진다.
-
-3.
+1. ci/cd
+2. 젠킨스
+3. 파이프라인
+4. blue ocean
+5. 젠킨스 설정
